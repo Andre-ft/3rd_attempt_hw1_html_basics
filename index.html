@@ -5,27 +5,29 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hw1 html basics</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <!-- Шапка сайта -->
     <header>
-        <nav>
-            <a href="/">
+        <nav>            
+            <a href="./html/example.html">
                 <img src="./img/logo.svg" alt="logo">
                 <span>Web</span><span>Studio</span>
             </a>
             
             <ul>
                 <li><a href="#">Студія</a></li>
-                <li><a href="#">Портфоліо</a></li>
+                <li><a href="#whatWeAreDoing">Портфоліо</a></li>
                 <li><a href="#">Контакти</a></li>
             </ul>
             
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="#">+38 096 111 11 11</a></li>
-            </ul>
-        </nav>
+        </nav> 
+
+        <ul>
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="#">+38 096 111 11 11</a></li>
+        </ul>        
     </header>
 
     <main>
@@ -62,7 +64,7 @@
         
         <!-- Чим ми займаємося -->
         <section>
-            <h2>Чим ми займаємося</h2>
+            <h2 id="whatWeAreDoing">Чим ми займаємося</h2>
             <ul>
                 <li><img src="./img/whatWeAreDoing_box1.png" alt="Алгоритмы ИИ" width="370"></li>
                 <li><img src="./img/whatWeAreDoing_box2.png" alt="Мобильные приложения" width="370"></li>
@@ -75,19 +77,19 @@
             <h2>Наша команда</h2>
         
             <ul>
-                <li><img src="./img/teamCard_1_Igor.png" alt="">
+                <li><img src="./img/teamCard_1_Igor.jpg" alt="Igor" width="270">
                     <h3>Ігор Дем'яненко</h3>
                     <p>Product Designer</p>
                 </li>
-                <li><img src="./img/teamCard_2_Olga.png" alt="">
+                <li><img src="./img/teamCard_2_Olga.jpg" alt="Olga" width="270">
                     <h3>Ольга Рєпіна</h3>
                     <p>Frontend Developer</p>
                 </li>
-                <li><img src="./img/teamCard_3_Mykola.png" alt="">
+                <li><img src="./img/teamCard_3_Mykola.jpg" alt="Mykola" width="270">
                     <h3>Микола Тарасов</h3>
                     <p>Marketing</p>
                 </li>
-                <li><img src="./img/teamCard_4_Mihaylo.png" alt="">
+                <li><img src="./img/teamCard_4_Mihaylo.jpg" alt="Myhaylo" width="270">
                     <h3>Михайло Єрмаков</h3>
                     <p>UI Designer</p>
                 </li>
@@ -102,11 +104,13 @@
             <span>Web</span><span>Studio</span>
         </a>
 
-        <ul>
-            <li>м. Київ, пр-т Лесі Українки, 26</li>
-            <li>info@devstudio.com</li>
-            <li>+38 096 111 11 11</li>
-        </ul>
+        <address>
+            <ul>
+                <li>м. Київ, пр-т Лесі Українки, 26</li>
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </address>
     </footer>
 </body>
 </html>
